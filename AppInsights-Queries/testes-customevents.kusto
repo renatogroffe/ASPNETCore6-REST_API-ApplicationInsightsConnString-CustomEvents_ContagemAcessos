@@ -1,0 +1,5 @@
+customEvents 
+| where name == "ContagemAcessos"
+
+exceptions 
+| where outerMessage == "Simulacao de Falha" 
